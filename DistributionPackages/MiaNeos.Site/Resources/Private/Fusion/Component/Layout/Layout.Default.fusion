@@ -1,0 +1,9 @@
+prototype(MiaNeos.Site:Component.Layout.Default) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <MiaNeos.Site:Component.Header />
+        {props.content}
+        <MiaNeos.Site:Component.Footer />
+    `
+}
